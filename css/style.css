@@ -1,0 +1,92 @@
+
+/*Custom propierties*/
+:root
+
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+   
+}
+
+body{
+    font-family:  Whitney, Neue Arial, Helvetica;
+    color: var(--dark);
+}
+.debug{
+    border: 1px solid black;
+}
+
+header{
+    background-color: blue;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+border: 1px solid black;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    align-items: center;
+}
+
+.auto-center{
+    margin: 0 auto;
+
+}
+
+.width{
+    width: 70%;
+}
+
+.d-justcont{
+    align-items: center;
+}
+
+.c-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.itemlist{
+    display: flex;
+    gap: 10px;
+}
+
+ul{
+    list-style: none;}
+
+.img-width{
+    width: 60%;
+}
+
+.text{
+    width: 40%;
+}
+
+.flex-panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-reverse{
+    flex-direction: row-reverse;
+}
+
+h3{
+    align-items: center;
+    
+}
+
